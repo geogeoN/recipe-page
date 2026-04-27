@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+body {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5f564d;
+    line-height: 150%;
+}
+
+h1 {
+    font-family: "Young Serif", serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #312e2c;
+    line-height: 100%;
+}
+
+h2 {
+    font-family: "Young Serif", serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: #854632;
+    line-height: 100%;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #7a284e;
+    line-height: 100%;
+}
+
+hr {
+    color: #e3ddd7;
+}
