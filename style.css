@@ -8,12 +8,15 @@ body {
     line-height: 150%;
 }
 
+img {
+    border-radius: 12px;
+}
+
 h1 {
     font-family: "Young Serif", serif;
     font-size: 40px;
     font-weight: 400;
     color: #312e2c;
-    line-height: 100%;
 }
 
 h2 {
@@ -21,16 +24,25 @@ h2 {
     font-size: 28px;
     font-weight: 400;
     color: #854632;
-    line-height: 100%;
 }
 
 h3 {
     font-size: 20px;
     font-weight: 600;
     color: #7a284e;
+}
+
+h1,
+h2,
+h3 {
     line-height: 100%;
 }
 
 hr {
     color: #e3ddd7;
+}
+
+.value {
+    font-weight: 700;
+    color: #854632;
 }
