@@ -12,6 +12,12 @@ img {
     border-radius: 12px;
 }
 
+h1,
+h2,
+h3 {
+    line-height: 100%;
+}
+
 h1 {
     font-family: "Young Serif", serif;
     font-size: 40px;
@@ -32,12 +38,6 @@ h3 {
     font-size: 20px;
     font-weight: 600;
     color: #7a284e;
-}
-
-h1,
-h2,
-h3 {
-    line-height: 100%;
 }
 
 hr {
