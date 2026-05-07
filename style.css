@@ -49,6 +49,85 @@ body {
     gap: 32px;
 }
 
+.content-title p {
+    margin: 0;
+}
+
+ul {
+    margin: 0 0 0 8px;
+    padding: 0;
+    list-style-position: inside;
+}
+
+.content-preparation {
+    margin: 0;
+    padding: 24px;
+    background-color: #fff7fb;
+    border-radius: 12px;
+}
+.content-preparation ul li {
+    margin: 0 0 8px;
+}
+.content-preparation ul li:last-child {
+    margin: 0;
+}
+
+.content-ingredients ul li {
+    margin: 0 0 8px;
+}
+.content-ingredients ul li:last-child {
+    margin: 0;
+}
+
+.list-container {
+    padding: 0 0 0 8px;
+}
+.list-container ol {
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+.content-instructions ol li::marker {
+    color: #854632;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+}
+.content-instructions ol li {
+    margin: 0 0 8px;
+    padding: 0 0 0 16px;
+    
+}
+.content-instructions ol li:last-child {
+    margin: 0;
+}
+
+.content-nutrition p {
+    margin: 0 0 24px;
+}
+.content-nutrition table {
+    margin: 0;
+    width: 100%;
+}
+.content-nutrition table tr {
+    margin: 12px 0;
+}
+.content-nutrition table tr:first-child {
+    margin: 0 0 12px;
+}
+.content-nutrition table tr:last-child {
+    margin: 12px 0 0;
+}
+.content-nutrition table tr:nth-child(2n+1) td {
+    width: 50%;
+}
+.content-nutrition table tr:nth-child(2n+1) td:first-child {
+    padding: 0 0 0 32px;
+}
+.content-nutrition table tr:nth-child(2n+1) td:last-child {
+    padding: 0 0 0 16px;
+}
+
+
 h1,
 h2,
 h3 {
@@ -65,6 +144,7 @@ h1 {
 }
 
 h2 {
+    margin: 0 0 24px;
     font-family: "Young Serif", serif;
     font-size: 28px;
     font-weight: 400;
@@ -73,6 +153,7 @@ h2 {
 }
 
 h3 {
+    margin: 0 0 16px;
     font-size: 20px;
     font-weight: 600;
     color: #7a284e;
