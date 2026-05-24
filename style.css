@@ -131,31 +131,32 @@ ul {
 h1,
 h2,
 h3 {
+    --font: "Young Serif", serif;
+    --fsize: 28px;
+    --fweight: 400;
+    font-family: var(--font);
+    font-size: var(--fsize);
+    font-weight: var(--fweight);
     line-height: 100%;
 }
 
 h1 {
+    --fsize: 40px;
     margin: 0 0 24px 0;
-    font-family: "Young Serif", serif;
-    font-size: 40px;
-    font-weight: 400;
     color: #312e2c;
-    line-height: 100%;
 }
 
 h2 {
     margin: 0 0 24px;
-    font-family: "Young Serif", serif;
     font-size: 28px;
-    font-weight: 400;
     color: #854632;
-    line-height: 100%;
 }
 
 h3 {
+    --font: Outfit, sans-serif;
+    --fsize: 20px;
+    --fweight: 600;
     margin: 0 0 16px;
-    font-size: 20px;
-    font-weight: 600;
     color: #7a284e;
 }
 
