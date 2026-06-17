@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5f564d;
+    line-height: 150%;
+}
+
+.wrapper {
+    min-height: 100%;
+    padding: 128px 48px;
+    background-color: #f3e5d7;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    max-width: 736px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 24px;
+}
+
+.container {
+    max-width: 656px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.content-image {
+    height: 300px;
+}
+.content-image img {
+    height: 100%;
+    border-radius: 12px;
+}
+
+.content-body {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.content-title p {
+    margin: 0;
+}
+
+ul {
+    margin: 0 0 0 8px;
+    padding: 0;
+    list-style-position: inside;
+}
+
+.content-preparation {
+    margin: 0;
+    padding: 24px;
+    background-color: #fff7fb;
+    border-radius: 12px;
+}
+.content-preparation ul li {
+    margin: 0 0 8px;
+}
+.content-preparation ul li:last-child {
+    margin: 0;
+}
+
+.content-ingredients ul li {
+    margin: 0 0 8px;
+}
+.content-ingredients ul li:last-child {
+    margin: 0;
+}
+
+.list-container {
+    padding: 0 0 0 8px;
+}
+.list-container ol {
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+.content-instructions ol li::marker {
+    color: #854632;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+}
+.content-instructions ol li {
+    margin: 0 0 8px;
+    padding: 0 0 0 16px;
+    
+}
+.content-instructions ol li:last-child {
+    margin: 0;
+}
+
+.content-nutrition p {
+    margin: 0 0 24px;
+}
+.content-nutrition table {
+    margin: 0;
+    width: 100%;
+}
+.content-nutrition table tr {
+    margin: 12px 0;
+}
+.content-nutrition table tr:first-child {
+    margin: 0 0 12px;
+}
+.content-nutrition table tr:last-child {
+    margin: 12px 0 0;
+}
+.content-nutrition table tr:nth-child(2n+1) td {
+    width: 50%;
+}
+.content-nutrition table tr:nth-child(2n+1) td:first-child {
+    padding: 0 0 0 32px;
+}
+.content-nutrition table tr:nth-child(2n+1) td:last-child {
+    padding: 0 0 0 16px;
+}
+
+
+h1,
+h2,
+h3 {
+    --font: "Young Serif", serif;
+    --fsize: 28px;
+    --fweight: 400;
+    font-family: var(--font);
+    font-size: var(--fsize);
+    font-weight: var(--fweight);
+    line-height: 100%;
+}
+
+h1 {
+    --fsize: 40px;
+    margin: 0 0 24px 0;
+    color: #312e2c;
+}
+
+h2 {
+    margin: 0 0 24px;
+    font-size: 28px;
+    color: #854632;
+}
+
+h3 {
+    --font: Outfit, sans-serif;
+    --fsize: 20px;
+    --fweight: 600;
+    margin: 0 0 16px;
+    color: #7a284e;
+}
+
+hr {
+    color: #e3ddd7;
+}
+
+.value {
+    font-weight: 700;
+    color: #854632;
+}
